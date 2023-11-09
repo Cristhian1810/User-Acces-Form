@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registro.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="../src/icon-form.ico"/>
+    <title>Registro</title>
+</head>
+<body>
+    <div class="div-borde">
+        <div class="div-container">
+            <h1>Register</h1>
+    
+            <form>
+                <div class="grid-1">
+                    <div>
+                        <label for="text">Username</label> <br>
+                        <input type="text" id="text" required>
+                    </div>
+    
+                    <div>
+                        <label for="email">Email ID</label> <br>
+                        <input type="email" id="email" required>
+                    </div>
+    
+                    <div>
+                        <label for="password">Password</label> <br>
+                        <input type="password" id="password" required>
+                    </div>
+    
+                    <div>
+                        <label for="password">Confirm Password</label> <br>
+                        <input type="password" id="password" required>
+                    </div>
+                </div>
+    
+                <div class="center">
+                    <h2>PERSONAL INFORMATION</h2>
+                </div>
+    
+                <div class="grid-2">
+                    <div>
+                        <label for="number">Phone No.</label> <br>
+                        <input type="number" id="number" required>
+                    </div>
+    
+                    <div>
+                        <label class="ciudad" for="ciudad">Ciudad:</label> <br>
+                        <select id="ciudad" name="ciudad">
+                            <option value="ciudad1">Otro</option>
+                            <option value="ciudad2">Paris</option>
+                            <option value="ciudad3">New York</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <label class="div-acep-term">
+                    <input type="checkbox" name="aceptar_terminos" id="aceptar_terminos" required>
+                    <i>I agree to the terms</i>
+                </label> <br>
+    
+                <p>Already have an account? Click here to</p>
+                <a href="/index.html">Login</a> <br>
+    
+                <div class="div-right">
+                    <input class="create-button" type="submit" value="CREATE ACCOUNT">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

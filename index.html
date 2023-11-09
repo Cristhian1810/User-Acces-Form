@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="icon" href="src/icon-form.ico" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="nombre">
+      <img src="src/creeper.png" alt="creeper" class="creeper" />
+      <p>CristhianJS</p>
+    </div>
+    <div class="div-borde">
+      <div class="div-container">
+        <div class="center">
+          <h1>Login</h1>
+        </div>
+        <form>
+          <label for="email">Username</label> <br />
+          <input type="email" id="email" required /> <br />
+
+          <label for="password">Password</label> <br />
+          <input type="password" id="password" required />
+
+          <div class="div-right">
+            <a class="link-password" href="">Forgot password?</a>
+          </div>
+
+          <input class="login-button" type="submit" value="LOGIN" />
+
+          <div class="center">
+            <p>Or Sign Up Using</p>
+
+            <div class="div-link">
+              <a href="https://facebook.com" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://google.com" target="_blank"
+                ><i class="fa-brands fa-google"></i
+              ></a>
+            </div>
+
+            <p>Or Sign Up Using</p>
+            <a href="registro/registro.html" class="sign-up" href="">SIGN UP</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
